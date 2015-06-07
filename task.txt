@@ -1,5 +1,0 @@
-creer les fichiers
-	css	(fichier d'export du Scss)
-	scss
-		mixins
-	index.html
