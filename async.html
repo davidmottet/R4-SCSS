@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="">
+	<head>
+	</head>
+	<body>
+		<script>
+				function loadCSS() {}
+				function onloadCSS() {}
+		</script>
+		<main class="main" style="display: none;">
+			<script>
+				onloadCSS(loadCSS('style.css'), function () {
+					document.querySelector(".main")
+						.style.display = "";
+				});
+			</script>
+			<noscript>
+				<link rel="stylesheet" href="style.css">
+			</noscript>
+		</main>
+	<script src="scripts/main.js" async></script>
+	</body>
+</html>
+
+<!--
+	Mettre loadCSS en script async
+	-->
