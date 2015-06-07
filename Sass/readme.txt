@@ -29,6 +29,7 @@
 // --------------------------------------------------
 	Pour sortir un version compressé
 		sass --style compressed scss.scss : ../style/main.css
+		sass watch --style expanded scss.scss : ../style/main.css
 		(watch peut être utilisé pour ne pas tapper la ligne de commande tous le temps)
 
 

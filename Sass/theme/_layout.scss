@@ -11,7 +11,10 @@ header{
 // Main
 // -------------------------
 .main{
-
+	article{
+		@include col(4);
+		background-color: grey;
+	}
 }
 
 // Footer

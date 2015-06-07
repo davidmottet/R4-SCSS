@@ -23,24 +23,3 @@
 		}
 	}
 }
-
-/*UTILISATION
-
-#content {
-	display: block;
-	width: 50%;
-	margin: 0;
-	@include responsive(screen-lg) {
-		width: 70%;
-	}
-	@include responsive(screen-md) {
-		width: 80%;
-	}
-	@include responsive(screen-sm) {
-		width: 90%;
-	}
-	@include responsive(screen-xs) {
-		width: 100%;
-	}
-}
-*/
