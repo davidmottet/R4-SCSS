@@ -1,0 +1,46 @@
+//* 
+
+
+@mixin responsive($width) {
+	@if $width == screen-lg {
+		@media only screen and (max-width: $screen-lg){
+			@content;
+		}
+	}
+	@else if $width == screen-md {
+		@media only screen and (max-width: $screen-md){
+			@content;
+		}
+	}
+	@else if $width == screen-sm {
+		@media only screen and (max-width: $screen-sm){
+			@content;
+		}
+	}
+	@else if $width == screen-xs {
+		@media only screen and (max-width: $screen-xs){
+			@content;
+		}
+	}
+}
+
+/*UTILISATION
+
+#content {
+	display: block;
+	width: 50%;
+	margin: 0;
+	@include responsive(screen-lg) {
+		width: 70%;
+	}
+	@include responsive(screen-md) {
+		width: 80%;
+	}
+	@include responsive(screen-sm) {
+		width: 90%;
+	}
+	@include responsive(screen-xs) {
+		width: 100%;
+	}
+}
+*/
